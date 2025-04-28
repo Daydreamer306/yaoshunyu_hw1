@@ -176,6 +176,11 @@ Matrix inv_matrix(Matrix a)
         }
         return c;
     }
+    //if(a.rows!=a.cols)
+        //printf("Error: The matrix must be a square matrix.\n");
+    //因为这里的错误提示已经在上面给出，无需重复
+    if(det==0)
+        printf("Error: The matrix is singular.\n");
     return create_matrix(0, 0);
 }
 
@@ -233,6 +238,7 @@ double trace_matrix(Matrix a)
         }
         return trace;
     }
+    printf("Error: The matrix must be a square matrix.\n");
     return 0;
 }
 
