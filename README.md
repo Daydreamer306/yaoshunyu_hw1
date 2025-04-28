@@ -34,11 +34,11 @@
 
 - 1、矩阵加法
 
-![add](asset\add.png)
+![add](asset/add.png)
 
 - 2、矩阵减法
 
-![sub](asset\sub.png)
+![sub](asset/sub.png)
 
 - 3、矩阵乘法
 
